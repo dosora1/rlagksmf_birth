@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>7. 도소라의 장래희망은 ? (7/13)</h1>
+  <h2>힌트 : 다섯 글자, sns 어딘가에 있음</h2>
+  <input type="text" id="ans">
+  <button onclick="check()">정답 확인</button>
+
+  <script>
+    function check(){
+    if(document.getElementById("ans").value=='프로그래머'){
+      location.href="8.html";
+    }
+    else{
+      alert("내 친구 맞지? 다시 생각해봐 ...")
+    }
+    }
+  </script>     
+</body>
+</html>
