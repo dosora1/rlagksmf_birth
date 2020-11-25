@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>1.우리가 처음으로 바다에 간 날짜는? (1/13)</h1>
+  <h2>**숫자 여섯 개 입력**</h2>
+  <input type="text" id="ans">
+  <button onclick="check()">정답 확인</button>
+
+  <script>
+    function check(){
+    if(document.getElementById("ans").value==170605){
+      location.href="2.html";
+    }
+    else{
+      alert("내 친구 맞지? 다시 생각해봐 ...")
+    }
+    }
+  </script>
+</body>
+</html>
